@@ -7,6 +7,7 @@ type Props = {
   children: React.ReactNode;
 };
 
+
 const Layout = (props: Props) => {
   return (
     <main className="bg-primary relative overflow-x-hidden ">
