@@ -15,18 +15,18 @@ const HeaderItems: HeaderItem[] = [
     name: "Home",
     link: "/home",
   },
-  {
-    name: "About",
-    link: "/about",
-  },
-  {
-    name: "Services",
-    link: "/services",
-  },
-  {
-    name: "Categories",
-    link: "/categories",
-  },
+  // {
+  //   name: "About",
+  //   link: "/about",
+  // },
+  // {
+  //   name: "Services",
+  //   link: "/services",
+  // },
+  // {
+  //   name: "Categories",
+  //   link: "/categories",
+  // },
 ];
 const Header: React.FC = (props: Props) => {
   const { pathname } = useRouter();
