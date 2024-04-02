@@ -7,4 +7,4 @@ npm config set legacy-peer-deps true
 
  rm -rf node_modules
 
- npm install -g npm@latest and npm audit fix. 
+ npm install -g npm@latest and  npm audit fix --force. 
